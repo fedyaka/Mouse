@@ -1,0 +1,38 @@
+@media (max-width: 1340px){
+	.container{
+		width: 100%;
+		padding: 0 5px;
+		background: none;
+	}
+}
+
+@media (max-width: 900px){
+	.menu ul{
+		display: none;
+		margin-top: 10px;
+		right: 0;
+		left: 0;
+	}
+	.menu li{
+		display: block;
+		border-radius: 0;
+	}
+	.menu a{
+		width: 100%;
+	}
+	.menu li + li{
+		margin-left: 0;
+	}
+
+
+	.btn_menu{
+		display: block;
+	}
+}
+
+
+@media (min-width: 900px){
+	.menu ul{
+		display: block !important;
+	}
+}
