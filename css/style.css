@@ -17,7 +17,7 @@ body{
 	background: -ms-linear-gradient(top, #feece0 0%, #FDD1B4 100%);
 	background: linear-gradient(top, #feece0 0%, #FDD1B4 100%);
 
-	font-size: 25px;
+	font-size: 32px;
 }
 
 .container{
@@ -139,7 +139,7 @@ main{
 	vertical-align: middle;
 }
 .name_content h1{
-	font-size: 40px;
+	font-size: 36px;
 	font-weight: bold;
 	text-decoration-line: underline;
 	text-shadow: 1px 0 1px #B74E65, 
@@ -152,9 +152,6 @@ main{
 	margin: 10px 40px 20px 40px;
 }
 
-.content p{
-	font-size: 20px;
-}
 
 hr{
 	width: 90%;
@@ -167,10 +164,10 @@ hr{
 /*------COURSE------*/
 .main_title{
 	display: block;
-	margin: 0 auto;
+	margin: -10px auto 40px auto;
 	text-align: center;
-	font-size: 35px;
-	font-weight: 400;
+	font-size: 40px;
+	font-weight: 700;
 }
 .center_block_content{
 	display: table;
@@ -180,6 +177,7 @@ hr{
 	margin: 30px auto;
 	border: 1px solid #B74E65;
 	border-radius: 30px;
+	padding: 30px;
 }
 .center_block_content p{
 	display: table-cell;
@@ -194,6 +192,7 @@ hr{
 	width: 95%;
 	min-height: 300px;
 	margin: 0 auto;
+	margin-bottom: 60px;
 	padding: 15px;
 	background-color: #FFEFF28F;
 	box-shadow: 0 5px 5px 5px rgba(0, 0, 0, 0.05);
@@ -217,8 +216,13 @@ hr{
 	margin: 0 20px;
 }
 .name_blog{
-	margin: 10px 0;
-	font-weight: 500;
+	margin: 10px 0px 30px 50px;
+	font-weight: 400;
+	font-size: 48px;
+	text-shadow: 1px 0 1px #B74E65, 
+	0 1px 1px #B74E65, 
+	-1px 0 1px #B74E65, 
+	0 -1px 1px #B74E65;
 }
 .social_network{
 	display: flex;

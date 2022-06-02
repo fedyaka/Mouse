@@ -50,10 +50,28 @@
 
 @media screen and (max-width: 750px) {
 	.name_content h1{
-		font-size: 14px;
+		font-size: 25px;
 	}
-	.content p{
-		font-size: 12px;
+	body{
+		font-size: 18px;
+	}
+	.name_blog{
+		font-size: 35px;
+		margin: 5px 0 15px 10px;
+	}
+	.description{
+		margin: 0 10px;
+	}
+	.social_network{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		border-left: 2px solid #DF2D2D;
+	}
+	.icon-social{
+		display: block;
+		font-size: 30px;
+		margin: 20px 0px 20px 10px;
 	}
 
 	.footer__title{
